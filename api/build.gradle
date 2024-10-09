@@ -38,5 +38,5 @@ tasks.named('test') {
 }
 
 bootBuildImage {
-    imageName = 'myorg/api:v0.0.1';
+    imageName = 'myorg/api:v0.0.2';
 }
