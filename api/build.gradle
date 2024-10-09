@@ -36,3 +36,7 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+
+bootBuildImage {
+    imageName = 'myorg/api:v0.0.1';
+}
